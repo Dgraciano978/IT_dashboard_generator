@@ -1,0 +1,9 @@
+pandas==2.2.2
+matplotlib==3.9.0
+openpyxl==3.1.2
+requests==2.32.1
+python-dateutil==2.9.0.post0
+pytz==2024.1
+seaborn==0.13.2
+scienceplots
+tqdm==4.66.4

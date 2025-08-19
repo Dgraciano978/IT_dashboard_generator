@@ -1,0 +1,29 @@
+{
+    "github": {
+        "api_base_url": "https://api.github.com",
+        "repositories": [
+            "microsoft/vscode",
+            "facebook/react",
+            "angular/angular",
+            "kubernetes/kubernetes"
+        ],
+        "rate_limit_delay": 1,
+        "timeout": 30
+    },
+    "report": {
+        "output_dir": "reports",
+        "template_name": "IT_Dashboard_{date}.xlsx",
+        "include_charts": true,
+        "chart_types": ["bar", "line", "pie"]
+    },
+    "logging": {
+        "level": "INFO",
+        "log_dir": "logs",
+        "log_file": "dashboard_{date}.log",
+        "max_log_files": 30
+    },
+    "scheduling": {
+        "daily_time": "08:00",
+        "timezone": "UTC"
+    }
+}
