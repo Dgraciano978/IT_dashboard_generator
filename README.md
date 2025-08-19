@@ -13,5 +13,5 @@ This Python tool pulls data from GitHub and builds an Excel-based IT dashboard. 
 
 ---
 
-## 📁 Project Structure
+
 
